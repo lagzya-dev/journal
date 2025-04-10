@@ -49,3 +49,4 @@ yarn-error.log*
 .vercel
 
 # **/__generated__
+bun.lock
