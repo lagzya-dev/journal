@@ -220,7 +220,6 @@ const Image: FC<ImageProps> = (props) => {
         maxHeight={restProps.maxH}
         placeholder='empty'
         priority={priority}
-        sizes={imageLoadingWidth}
         src={imageHref || ''}
         title={props.title || props.alt || 'image'}
         unoptimized={shouldOptimized}
